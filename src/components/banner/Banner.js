@@ -33,7 +33,7 @@ function Banner(props) {
         }}>
         
             <div className={classes.banner_content}>
-                <h1 className={classes.banner_title}>{movie?.name}</h1>
+                <h1 className={classes.banner_title}>{movie?.name || movie?.title || movie?.original_name}</h1>
                 <button className={classes.banner_button}>Play</button>
                 <button className={classes.banner_button}>My List</button>
                 <h1 className={classes.banner_description}>

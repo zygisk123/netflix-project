@@ -4,7 +4,7 @@ import HomePage from './components/pages/homepage/HomePage';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <HomePage/>
     </div>
   );
